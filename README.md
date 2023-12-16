@@ -12,7 +12,7 @@ Created a results page that allows user to input their name to be attached to th
 Created Buttons for High Score Page that allows user to navigate back to landing page or to clear all high scores from both the webpage and local storage.
 
 # GIF of Deployed Application
-
+![](https://github.com/dpair12/Coding-Quiz-Challenge/blob/main/GIF/CodingQuiz.gif)
 # Link to Live Application
 https://dpair12.github.io/Coding-Quiz-Challenge/
 

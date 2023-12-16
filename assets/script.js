@@ -213,4 +213,4 @@ navhigh.addEventListener('click', function (event){
   timerEl.style.display = 'none';
   });
 
-// Calls startQuiz function
+
