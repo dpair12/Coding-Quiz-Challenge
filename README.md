@@ -14,6 +14,7 @@ Created Buttons for High Score Page that allows user to navigate back to landing
 # GIF of Deployed Application
 
 # Link to Live Application
+https://dpair12.github.io/Coding-Quiz-Challenge/
 
 # Guidelines for Uses
 Feel free to use the code as a reference for building a quiz that's powered by JavaScript and feel free to share it with others as a resource to study JavaScript.

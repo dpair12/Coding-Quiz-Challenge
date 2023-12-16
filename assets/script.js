@@ -214,4 +214,3 @@ navhigh.addEventListener('click', function (event){
   });
 
 // Calls startQuiz function
-startQuiz ();
