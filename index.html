@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title for Webpage-->
+  <title>Coding Quiz Challenge</title>
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Nav Bar that Holds View Highscores link and Timer-->
+  <nav id="nav">
+     <!--View Highscores-->
+  <a id="nav-highscore" href="">View Highscores</a>
+   <!-- Timer-->
+  <a id="timer"></a>
+  </nav>
+   <!-- Landing Page-->
+  <section id="landing">
+    <h1>Coding Quiz Challenge</h1>
+    <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by 10 seconds. Good luck!</p>
+    <!-- Start Quiz button that activates quiz and timer-->
+    <button id="start">Start Quiz</button>
+  </section>
+   <!-- Container for Questions and Answers-->
+  <section id="question-container">
+     <!-- Questions -->
+    <h1 id="questions"></h1>
+     <!-- Answers -->
+    <button id="option-1"></button>
+    <button id="option-2"></button>
+    <button id="option-3"></button>
+    <button id="option-4"></button>
+     <!-- Verdict that briefly appears letting user know if choice is correct or incorrect-->
+    <p id="verdict"></p>
+  </section>
+   <!-- Results Page that Displays at End of Quiz -->
+  <section id="results">
+  </section>
+   <!-- Form that allows user to input name to be attached to their score-->
+  <form id="myForm" data-state="hidden">
+    <label for="name">Enter Name:</label>
+     <!-- Field to Enter Name-->
+    <input type="name" id="name" name="name">
+     <!-- Submit Button-->
+    <input type="submit" id="submit" value="Submit">
+  </form>
+   <!-- High Scores Page-->
+  <section id="high-scores">
+  </section>
+     <!-- JavaScript-->
+  <script src="./script.js"></script>
+</body>
+</html>
